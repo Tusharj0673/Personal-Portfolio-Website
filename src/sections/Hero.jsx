@@ -113,25 +113,32 @@ containerization tools. Actively seeking an entry level software development rol
              </div>
             </div>
 
-            {/* Skills Section  */}
-         <div className="mt-20 animate-fade-in animation-delay-600">
-            <p className="text-sm text-muted-foreground mb-6 text-center">Technologies I'm familiar with</p>
-            <div className="relative overflow-hidden">
-                <div className="flex animate-marquee">
-                    {[...skills,...skills].map((skill,idx)=>(
-                        <div key={idx} className="shrink-0 px-8 py-4">
-                            <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
-                        </div>
-                    ))}
+     
+             {/* Skills */}
+        <div className="mt-20 animate-fade-in animation-delay-600">
+          <p className="text-sm text-muted-foreground mb-6 text-center">
+            Technologies I'm familiar with
+          </p>
+
+          <div className="relative overflow-hidden">
+            <div className="flex w-max whitespace-nowrap animate-marquee">
+              {[...skills, ...skills].map((skill, idx) => (
+                <div
+                  key={idx}
+                  className="shrink-0 px-5 md:px-8 py-3 md:py-4"
+                >
+                  <span className="text-lg md:text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
+                    {skill}
+                  </span>
                 </div>
+              ))}
             </div>
-         </div>
+          </div>
         </div>
-<br/>
-          <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 
-      animate-fade-in animation-delay-800"
-      >
+      </div>
+
+      {/* Chevron */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
         <a
           href="#about"
           className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
