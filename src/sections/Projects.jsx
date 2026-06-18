@@ -10,6 +10,15 @@ const projects = [
     link: "https://savvy-navy.vercel.app/",
     github: "https://github.com/Tusharj0673/Savvy",
   },
+  {
+    title: "Label_IQ - AI Driven Indian Food Label Analyzer",
+    description:
+      "A food safety platform featuring multi-modal AI-driven label scanning and automated FSSAI compliance reporting. Built with an event-driven architecture to process complex ingredient lists, the application provides real-time health risk alerts and personalized nutritional insights. Leveraging a multi-model AI pipeline, it combines OCR extraction, legal rule engines, and deep learning for automated, data-backed health transparency.",
+    image: "/projects/project2.png",
+    tags: ["React JS", "FastAPI", "MongoDB", "Vite","BERT NLP","SHAP","Knowledge Graph"],
+    link: "https://label-iq-analyzer.vercel.app/",
+    github: "https://github.com/Tusharj0673/food-label-analyzer",
+  },
 ];
 
 export const Projects = () => {
@@ -33,25 +42,24 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Currently showcasing my flagship AI project while actively building
-            new solutions. One deep dive finished, many more in the pipeline.
+            Currently showcasing two AI driven projects while actively developing new solutions. Two deep dives finished, many more in the pipeline.
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="flex justify-center">
-          <div className="grid grid-cols-1 max-w-2xl w-full gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, idx) => (
               <div
                 key={idx}
-                className="group glass rounded-2xl overflow-hidden animate-fade-in"
+                className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+                style={{ animationDelay: `${(idx + 1) * 100}ms` }}
               >
                 {/* Image */}
                 <div className="relative aspect-video overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-101"
                   />
 
                   {/* Overlay Links */}
@@ -93,7 +101,6 @@ export const Projects = () => {
             ))}
           </div>
         </div>
-      </div>
     </section>
   );
 };

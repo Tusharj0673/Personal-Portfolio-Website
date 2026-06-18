@@ -62,7 +62,7 @@ containerization tools. Actively seeking an entry level software development rol
                 {/* CTAs  */}
                 <div className="flex flex-wrap gap-4 animated-fade-in animation-delay-300">
                       <a href="#contact"><Button size="lg">Contact me <ArrowRight className="w-5 h-5"/></Button></a>
-                      <a href="https://drive.google.com/file/d/1J6AgBgWcqFOSnbwOWs6j2-3knD1tLbtE/view">
+                      <a href="https://drive.google.com/file/d/1s6jrIaHrLDG22rYPPn_CPCHD_uxv1Mng/view?usp=sharing">
                         <AnimatedBorderButton>
                           <View className="w-5 h-5"/>
        View CV
