@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is my personal portfolio website built to showcase my projects, skills, experience, and contact information.
+This is my personal portfolio website built to showcase my projects, skills, experience, and contact information. It also features an **Interactive AI Portfolio Assistant** that allows recruiters to chat with an AI representation of my resume in real time, evaluate job description suitability, and explore my technical background.
 
 ## Tech Stack
 
@@ -16,6 +16,15 @@ This is my personal portfolio website built to showcase my projects, skills, exp
 
 - Lucide Icons
 
+- Groq AI Token
+
+- FastAPI(Python 3.10+)
+
+- Uvicorn (ASGI Web Server)
+
+- Groq API (`llama-3.3-70b-versatile`)
+
+- SlowAPI (Rate Limiting)
 
 ## Purpose
 

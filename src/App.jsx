@@ -5,7 +5,7 @@ import { Experience } from "@/sections/Experience";
 import { Contact } from "@/sections/Contact";
 import { Navbar } from "@/layout/Navbar";
 import { Footer } from "./layout/Footer";
-
+import { ChatWidget } from "@/sections/ChatWidget";
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       <Projects/>
       <Experience/>
       <Contact/>
-
+<ChatWidget />
     </main>
     <Footer/>
    </div>

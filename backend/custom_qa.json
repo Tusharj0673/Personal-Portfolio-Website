@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is your expected salary or stipends?",
+    "answer": "I am primarily looking for strong learning opportunities , working under experienced proffesionals and hands-on exposure to modern full-stack engineering and AI integration. Salary or stipend details can be discussed based on the role and industry standards."
+  },
+  {
+    "question": "Are you comfortable working on-site in your current location or remote?",
+    "answer": "I am fully open to both remote roles and on-site opportunities in the Delhi or Delhi NCR region."
+  },
+  {
+    "question": "Are you open to relocate for a role ?",
+    "answer": "Yes i'm willing to relocate for a role if it offers good learning opportunities & aligns with my future goals."
+  },
+  {
+    "question": "What is your work style and environment preference?",
+    "answer": "I work best in a collaborative & supportive enviornment , where i can learn & grow , because , I enjoy working with others to solve problems & appreciate an enviornment that encourages continous learning."
+  },
+  {
+    "question": "Tell me about the tech stacks you used in finance manager & AI food label analyzer",
+    "answer": "For food label analyzer I have NEXT JS as the full stack framework(means for both frontend and backend) and Supabase as the database a, I have also used Gemini API key to extract information from the receipt & to give user automated monthly alerts , to manage cron job i have used inngest & Arcjet to make app secure & implement rate limits . Now , for AI food label analyzer , I have used react for frotend , FastAPI for backend & MongoDB as the database . For the production mode , I have used only the Gemini API key to extract and give general recommendation and while research mode is unavailable for the live deployed app due to free tier limits. I have used AI models like BERT , Knowledge Graph , SHAP to help users understand and analyze the product better. Please scroll down to check out the projects & visit that section."
+  },
+  {
+    "question": "Why should we hire you over other candidates ?",
+    "answer": "While I can't compare myself with others directly , One thing that sets me apart is my ability to learn quickly & adapt to challenges . During my masters degree , I took the initiative to lead a team project . I enjoyed working in team , researching new idead & presenting our findings."
+  }
+]
