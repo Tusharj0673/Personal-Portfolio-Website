@@ -16,7 +16,6 @@ export const ChatWidget = () => {
   const fileInputRef = useRef(null);
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
-
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -181,7 +180,7 @@ export const ChatWidget = () => {
       )}
 
       {isOpen && (
-        <div className="w-[90vw] md:w-[400px] h-[75vh] md:h-[550px] max-h-[800px] rounded-2xl glass border border-white/10 shadow-2xl flex flex-col overflow-hidden animate-fade-in bg-background/95 backdrop-blur-md">
+        <div className="w-[90vw] md:w-100 h-[75vh] md:h-137.5 max-h-200 rounded-2xl glass border border-white/10 shadow-2xl flex flex-col overflow-hidden animate-fade-in bg-background/95 backdrop-blur-md">
           
           <div className="px-4 py-3 border-b border-white/10 flex items-center justify-between bg-primary/10 shrink-0">
             <div className="flex items-center gap-2">

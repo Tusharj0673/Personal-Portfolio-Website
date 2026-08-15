@@ -22,7 +22,7 @@ This is my personal portfolio website built to showcase my projects, skills, exp
 
 - Uvicorn (ASGI Web Server)
 
-- Groq API (`llama-3.3-70b-versatile`)
+- Groq API (`openai/gpt-oss-120b`)
 
 - SlowAPI (Rate Limiting)
 
