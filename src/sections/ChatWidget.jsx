@@ -213,18 +213,17 @@ export const ChatWidget = () => {
   }`}
 >
   {msg.content ? (
-    <ReactMarkdown
-      components={{
-        // Style headings, lists, bold text, and paragraphs neatly
-        p: ({ node, ...props }) => <p className="mb-2 last:mb-0" {...props} />,
-        strong: ({ node, ...props }) => <strong className="font-bold text-white" {...props} />,
-        ul: ({ node, ...props }) => <ul className="list-disc pl-4 space-y-1 mb-2" {...props} />,
-        ol: ({ node, ...props }) => <ol className="list-decimal pl-4 space-y-1 mb-2" {...props} />,
-        li: ({ node, ...props }) => <li className="text-sm" {...props} />,
-      }}
-    >
-      {msg.content}
-    </ReactMarkdown>
+  <ReactMarkdown
+  components={{
+    p: ({ node, ...props }) => <p className="mb-2 last:mb-0" {...props} />,
+    strong: ({ node, ...props }) => <strong className="font-bold text-white" {...props} />,
+    ul: ({ node, ...props }) => <ul className="list-disc pl-4 space-y-1 mb-2" {...props} />,
+    ol: ({ node, ...props }) => <ol className="list-decimal pl-4 space-y-1 mb-2" {...props} />,
+    li: ({ node, ...props }) => <li className="text-sm" {...props} />,
+  }}
+>
+  {msg.content}
+</ReactMarkdown>
   ) : (
     <span className="flex items-center gap-2 text-muted-foreground">
       <Loader2 className="w-3.5 h-3.5 animate-spin" /> Thinking...
