@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 export const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hi! I'm Tushar's AI assistant. Ask me anything about his projects, skills, or upload a Job Description to see if he's a fit!" }
+    { role: "assistant", content: "Hi! I'm Tushar's AI assistant. Ask me anything about his projects, skills, or upload a Job Description to see if he's a fit !" }
   ]);
   const [input, setInput] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
